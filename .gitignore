@@ -1,0 +1,8 @@
+# virtual environment
+.venv/
+
+# raw data (large / synthetic)
+data/raw/
+
+# notebooks checkpoints
+.ipynb_checkpoints/
