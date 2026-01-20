@@ -1,0 +1,2 @@
+n_lines,n_snps_raw,miss_threshold,maf_threshold,n_snps_after_missing,n_snps_after_maf,missing_total_raw,missing_total_after_qc,pc1_var,pc2_var
+300,39000,0.1,0.02,39000,37363,233843,223998,0.03304037090116667,0.030948298622769422
