@@ -1,9 +1,40 @@
-# Large genotype matrices (do not version in GitHub)
-data/raw/genotypes.csv
-data/processed/genotypes_qc_std.csv
-
-# Folders we never track
-data/raw/
+# ----------------------
+# Python / environments
+# ----------------------
 .venv/
-.idea/
+venv/
+__pycache__/
+*.pyc
+
+# ----------------------
+# Jupyter
+# ----------------------
 .ipynb_checkpoints/
+
+# ----------------------
+# IDE
+# ----------------------
+.idea/
+
+# ----------------------
+# OS
+# ----------------------
+.DS_Store
+
+# ----------------------
+# Large data (DO NOT version)
+# ----------------------
+data/raw/
+data/processed/genotypes*.csv
+data/processed/*.npy
+
+# ----------------------
+# Outputs (keep figures, ignore models if large)
+# ----------------------
+outputs/models/
+outputs/tmp/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
