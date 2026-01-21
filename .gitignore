@@ -1,3 +1,6 @@
+data/raw/
+data/processed/genotypes_qc_std.csv
+data/processed/genotypes*.csv
 # ----------------------
 # Python / environments
 # ----------------------
