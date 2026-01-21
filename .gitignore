@@ -1,8 +1,9 @@
-# Data (avoid pushing large files)
-data/raw/
+# Large genotype matrices (do not version in GitHub)
+data/raw/genotypes.csv
 data/processed/genotypes_qc_std.csv
 
-# Python env / IDE
+# Folders we never track
+data/raw/
 .venv/
 .idea/
 .ipynb_checkpoints/
