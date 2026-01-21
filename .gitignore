@@ -1,8 +1,8 @@
-# virtual environment
-.venv/
-
-# raw data (large / synthetic)
+# Data (avoid pushing large files)
 data/raw/
+data/processed/genotypes_qc_std.csv
 
-# notebooks checkpoints
+# Python env / IDE
+.venv/
+.idea/
 .ipynb_checkpoints/
