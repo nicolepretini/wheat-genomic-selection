@@ -184,3 +184,15 @@ Genetics · Agronomy · Data Science
 
 
 ---
+
+## Multi-trait Genomic Selection & Cross Ranking
+
+This project implements a full genomic selection workflow extending beyond single-trait prediction:
+
+- Multi-trait GEBV estimation (yield, disease resistance, plant height)
+- Construction of a weighted selection index reflecting breeding priorities
+- Simulation of progeny genotypes (F2 / DH) from parental crosses
+- Estimation of within-cross additive variance
+- Cross ranking based on expected performance and upper-tail potential (P95)
+
+The final output is a production-style decision table identifying optimal parental crosses under realistic trade-offs between traits and genetic variance. This mirrors how modern breeding programs prioritize crosses for both short-term gain and long-term genetic improvement.
